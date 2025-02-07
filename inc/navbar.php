@@ -38,15 +38,15 @@ function pagePath($pageTitle, $breadcrumb)
             <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <a href="./" class="nav-link">Home</a>
+            <!-- <a href="" class="nav-link">Home</a> -->
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <a class="nav-link">Contact</a>
+            <a class="nav-link"></a>
         </li>
     </ul>
 
     <!-- SEARCH FORM -->
-    <form class="form-inline ml-3">
+    <!-- <form class="form-inline ml-3">
         <div class="input-group input-group-sm">
             <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search"
                 name="search">
@@ -56,24 +56,24 @@ function pagePath($pageTitle, $breadcrumb)
                 </button>
             </div>
         </div>
-    </form>
+    </form> -->
 
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
         <!-- Messages Dropdown Menu -->
-        <li class="nav-item dropdown">
+        <!-- <li class="nav-item dropdown">
             <a class="nav-link" href="/#messages">
                 <i class="far fa-comments"></i>
                 <span class="badge badge-danger navbar-badge">3</span>
             </a>
-        </li>
+        </li> -->
         <!-- Notifications Dropdown Menu -->
-        <li class="nav-item dropdown">
+        <!-- <li class="nav-item dropdown">
             <a class="nav-link" href="/#messages">
                 <i class="far fa-bell"></i>
                 <span class="badge badge-warning navbar-badge">15</span>
             </a>
-        </li>
+        </li> -->
     </ul>
 </nav>
 
@@ -92,57 +92,46 @@ function pagePath($pageTitle, $breadcrumb)
             <div class="image">
                 <img src="./src/images/admin_profilepic.png" class="img-circle elevation-2" alt="User Image">
             </div>
-            <div class="info">  
-                <a href="#" class="d-block">Admin</a>
+            <div class="info">
+                <a href="admin_index.php" class="d-block">Admin</a>
             </div>
         </div>
 
         <!-- Sidebar Menu -->
         <nav class="mt-2">
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-
                 <li class="nav-item has-treeview <?= in_array($current_page, ['index.php']) ? 'menu-open' : ''; ?>">
                     <a class="nav-link <?= in_array($current_page, ['index.php']) ? 'active' : ''; ?>">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
-                        <p>
-                            Dashboard
-                            <i class="right fas fa-angle-left"></i>
-                        </p>
+                        <p>Dashboard <i class="right fas fa-angle-left"></i></p>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
                             <a href="./" class="nav-link <?= ($current_page === 'index.php') ? 'active' : ''; ?>">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Dashboard</p>
+                                <p>User Registration</p>
                             </a>
                         </li>
-                    </ul>
-                </li>
 
-                <li class="nav-header">EXAMPLES</li>
-
-                <li class="nav-item has-treeview <?= in_array($current_page, ['alert.php'])  ? 'menu-open' : ''; ?>">
-                    <a class="nav-link <?= in_array($current_page, ['alert.php'])  ? 'active' : ''; ?>">
-                        <i class="nav-icon far fa-plus-square"></i>
-                        <p>
-                            Alerts
-                            <i class="fas fa-angle-left right"></i>
-                        </p>
-                    </a>
-                    <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="alert.php"
-                                class="nav-link <?= ($current_page === 'alert.php') ? 'active' : ''; ?>">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>Alert</p>
+                            <a href="user_management.php" class="nav-link <?= ($current_page === 'user_management.php') ? 'active' : ''; ?>">
+                                <i class="far fa-user nav-icon"></i>
+                                <p>Manage Users</p>
                             </a>
                         </li>
+
                     </ul>
                 </li>
-
             </ul>
         </nav>
-        <!-- /.sidebar-menu -->
+
+        <!-- Logout Button -->
+        <div class="sidebar-logout mt-3 p-3">
+            <a href="logout.php" class="btn btn-danger btn-block">
+                <i class="fas fa-sign-out-alt"></i> Logout
+            </a>
+        </div>
+
     </div>
     <!-- /.sidebar -->
 </aside>

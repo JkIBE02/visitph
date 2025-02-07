@@ -65,20 +65,20 @@ $conn->close();
             <div class="col-lg-3 col-6">
               <div class="small-box bg-warning">
                 <div class="inner">
-                  <h3><?php echo $most_visited; ?></h3> <!-- You can modify this to show the name of the destination -->
-                  <p>Most Visited</p>
+                  <!-- <h3><?php echo $most_visited; ?></h3> You can modify this to show the name of the destination -->
+                  <p>Manage Users</p>
                 </div>
                 <div class="icon">
                   <i class="ion ion-person-add"></i>
                 </div>
-                <a href="destination_management.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                <a href="user_management.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
               </div>
             </div>
 
             <div class="col-lg-3 col-6">
             <div class="small-box bg-danger">
                 <div class="inner">
-                  <h3><?php echo $active_users; ?></h3>
+                  <!-- <h3><?php echo $active_users; ?></h3> -->
                   <p>Active Users</p>
                 </div>
                 <div class="icon">
