@@ -32,6 +32,10 @@
   --ff-abril-fatface: 'Abril Fatface', cursive;
   --ff-comforter-brush: 'Comforter Brush', cursive;
   --ff-heebo: 'Heebo', sans-serif;
+  --ff--sans: "Open Sans", serif;
+
+  
+
 
   --fs-1: 3.4rem;
   --fs-2: 3.2rem;
@@ -140,7 +144,19 @@ body {
   # STYLE
 \*-----------------------------------*/
 
-.container { padding-inline: 15px; }
+.container { 
+  padding-inline: 15px; 
+}
+
+.banner { 
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
+  background-size: cover;
+  background-position: center;
+  filter: brightness(50%);
+  
+}
 
 .btn {
   background: var(--background, var(--white-1));
@@ -156,6 +172,17 @@ body {
   --background: transparent;
   --color: var(--white-1);
 }
+
+.btn-registration {
+  display: flex;
+  gap: 10px;
+  margin-left: 50px;
+}
+
+
+
+
+
 
 .btn-primary {
   --background: var(--viridian-green);
@@ -184,12 +211,25 @@ body {
 .section-subtitle {
   font-family: var(--ff-comforter-brush);
   color: var(--mikado-yellow);
-  font-size: var(--fs-1)
+  font-size: var(--fs-1);
+}
+
+.heading {
+  font-size: 75px;
 }
 
 .hero-content .section-subtitle {
   font-size: 100px; 
 }
+
+.hero-content-important {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-80%, -80%);
+}
+
+
 
 .w-100 { 
   width: 100%; 
@@ -317,7 +357,7 @@ body {
   transition: 0.25s var(--cubic-out);
   z-index: 99;
   width: 100%;
-
+  
 
 }
 
@@ -417,7 +457,10 @@ body {
   font-size: var(--fs-4);
   line-height: 1.7;
   margin-bottom: 15px;
-  
+}
+
+.important {
+  color: var(--white-1);
 }
 
 .btn-group {
@@ -454,6 +497,13 @@ body {
   overflow-y: hidden;
 
 }
+
+.next-prev {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .previous-round {
   display: inline-block;
   cursor: pointer;
@@ -463,9 +513,11 @@ body {
   background-color: var(--viridian-green);
   height: auto;
   width: auto;
-  font-size: 35px;
+  font-size: 20px;
   margin-right: 20px;
   margin-bottom: 5px; 
+  
+  
 }
 
 .next-round {
@@ -477,8 +529,9 @@ body {
   background-color: var(--viridian-green);
   height: auto;
   width: auto;
-  font-size: 35px;
-  margin-bottom: 5px; 
+  font-size: 20px;
+  margin-bottom: 5px;
+ 
 }
 
 
@@ -1107,6 +1160,7 @@ body {
 
   .navbar-list { gap: 50px; }
 
+  
 
 
   /**
@@ -1266,6 +1320,34 @@ body {
 .btn-blog:hover { 
   background-color: hsla(0, 100%, 30%, 0.3);
 }
+
+.heart-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 50px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+  color: white; /* White heart initially */
+}
+
+.heart-btn:hover {
+  color: red; /* Turns red on hover */
+}
+
+.heart-btn.clicked {
+  color: red; /* Stays red after clicking */
+}
+
+
+
+
+
+
+
+
 
 
 /* top 10 slider css  */
