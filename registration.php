@@ -175,33 +175,20 @@ $conn->close();
 <body>
     <div class="container">
         <h2 class="heading"></h2>
-        <form action="registration.php" method="POST">
-            <input 
-                type="text" 
-                name="username" 
-                placeholder="Username" 
-                required 
-                class="<?php echo $username_taken ? 'input-error' : ''; ?>" 
-                value="<?php echo isset($username) ? htmlspecialchars($username) : ''; ?>">
-            <input 
-                type="email" 
-                name="email" 
-                placeholder="Email" 
-                required 
-                class="<?php echo $email_taken ? 'input-error' : ''; ?>" 
-                value="<?php echo isset($email) ? htmlspecialchars($email) : ''; ?>">
-            <input 
-                type="password" 
-                name="password" 
-                placeholder="Password" 
-                required>
-            <input 
-                type="password" 
-                name="confirm_password" 
-                placeholder="Confirm Password" 
-                required>
+        <form action="register.php" method="POST">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+
+            <label for="role">Role:</label>
+            <select name="role" required>
+                <option value="user">User</option>
+                <option value="admin">Admin</option>
+            </select>
             <button type="submit">Register</button>
         </form>
+
         <?php if (!empty($success_message)): ?>
             <div class="success"><?php echo $success_message; ?></div>
         <?php endif; ?>
