@@ -237,7 +237,9 @@ session_start();
 
   
 
-  <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
+  <?php include('footer.php')?>
+
+  <!-- <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
     <div class="container">
 
       <div class="footer-top">
@@ -340,9 +342,9 @@ session_start();
 
         
 
-        <ul class="social-list">
+        <ul class="social-list"> -->
 
-          <li>
+          <!-- <li>
             <a href="https://www.facebook.com/" class="social-link">
               <ion-icon name="logo-facebook"></ion-icon>
             </a>
@@ -377,7 +379,7 @@ session_start();
       </div>
 
     </div>
-  </footer>
+  </footer> -->
 
 
   <a href="#top" class="go-top" data-go-top aria-label="Go To Top">

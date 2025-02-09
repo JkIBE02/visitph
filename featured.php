@@ -491,13 +491,13 @@ session_start();
 
 
 
-
+<?php include('footer.php')?>
 
   <!-- 
     - #FOOTER
   -->
 
-  <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
+  <!-- <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
     <div class="container">
 
       <div class="footer-top">
@@ -637,7 +637,7 @@ session_start();
       </div>
 
     </div>
-  </footer>
+  </footer> -->
 
 
 

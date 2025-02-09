@@ -107,10 +107,10 @@ function pagePath($pageTitle, $breadcrumb)
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="./" class="nav-link <?= ($current_page === 'index.php') ? 'active' : ''; ?>">
+                            <!-- <a href="./" class="nav-link <?= ($current_page === 'index.php') ? 'active' : ''; ?>">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>User Registration</p>
-                            </a>
+                            </a> -->
                         </li>
 
                         <li class="nav-item">

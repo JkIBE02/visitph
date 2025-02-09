@@ -237,160 +237,162 @@ session_start();
 
   
 
-  <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
-    <div class="container">
+  <?php include('footer.php')?>
 
-      <div class="footer-top">
+<!-- <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
+  <div class="container">
 
-        <ul class="footer-list">
+    <div class="footer-top">
 
-          <li>
-            <p class="footer-list-title">Top destination</p>
-          </li>
+      <ul class="footer-list">
 
-          <li>
-            <a href="destinations.php" class="footer-link">Aklan</a>
-          </li>
+        <li>
+          <p class="footer-list-title">Top destination</p>
+        </li>
 
-          <li>
-            <a href="destinations.php" class="footer-link">Palawan</a>
-          </li>
+        <li>
+          <a href="destinations.php" class="footer-link">Aklan</a>
+        </li>
 
-          <li>
-            <a href="destinations.php" class="footer-link">Batanes</a>
-          </li>
+        <li>
+          <a href="destinations.php" class="footer-link">Palawan</a>
+        </li>
 
-          <li>
-            <a href="destinations.php" class="footer-link">Sulu Sea</a>
-          </li>
+        <li>
+          <a href="destinations.php" class="footer-link">Batanes</a>
+        </li>
 
-          <li>
-            <a href="destinations.php" class="footer-link">Ilocos</a>
-          </li>
+        <li>
+          <a href="destinations.php" class="footer-link">Sulu Sea</a>
+        </li>
 
-        </ul>
+        <li>
+          <a href="destinations.php" class="footer-link">Ilocos</a>
+        </li>
 
-        <ul class="footer-list">
+      </ul>
 
-          <li>
-            <p class="footer-list-title">Categories</p>
-          </li>
+      <ul class="footer-list">
 
-          
-
-          <li>
-            <a href="explore.php" class="footer-link">Activities</a>
-          </li>
-
-          
-          <li>
-            <a href="explore.php" class="footer-link">Culture</a>
-          </li>
-
-          <li>
-            <a href="explore.php" class="footer-link">Foods</a>
-          </li>
-
-        </ul>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Quick links</p>
-          </li>
-
-          <li>
-            <a href="about_us.php" class="footer-link">About</a>
-          </li>
-
-          <li>
-            <a href="contact_us.php" class="footer-link">Contact</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Tours</a>
-          </li>
-
-          
-          <li>
-            <a href="#" class="footer-link">Terms & Conditions</a>
-          </li>
-
-        </ul>
-
-        <div class="footer-list">
-
-          
-
-          
-
-          <form action="" class="newsletter-form">
-            <input type="email" name="email" required placeholder="Email address" class="newsletter-input">
-
-            <button type="submit" class="btn btn-primary">Subscribe</button>
-          </form>
-
-        </div>
-
-      </div>
-
-      <div class="footer-bottom">
-
-        <a href="#" class="logo">Visit Philippines</a>
+        <li>
+          <p class="footer-list-title">Categories</p>
+        </li>
 
         
 
-        <ul class="social-list">
+        <li>
+          <a href="explore.php" class="footer-link">Activities</a>
+        </li>
 
-          <li>
-            <a href="https://www.facebook.com/" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
+        
+        <li>
+          <a href="explore.php" class="footer-link">Culture</a>
+        </li>
 
-          <li>
-            <a href="https://twitter.com/?lang=en" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
+        <li>
+          <a href="explore.php" class="footer-link">Foods</a>
+        </li>
 
-          <li>
-            <a href="https://www.instagram.com/" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
+      </ul>
 
-          <li>
-            <a href="https://www.linkedin.com/login" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
+      <ul class="footer-list">
 
-          <li>
-            <a href="https://www.google.com/" class="social-link">
-              <ion-icon name="logo-google"></ion-icon>
-            </a>
-          </li>
+        <li>
+          <p class="footer-list-title">Quick links</p>
+        </li>
 
-        </ul>
+        <li>
+          <a href="about_us.php" class="footer-link">About</a>
+        </li>
+
+        <li>
+          <a href="contact_us.php" class="footer-link">Contact</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Tours</a>
+        </li>
+
+        
+        <li>
+          <a href="#" class="footer-link">Terms & Conditions</a>
+        </li>
+
+      </ul>
+
+      <div class="footer-list">
+
+        
+
+        
+
+        <form action="" class="newsletter-form">
+          <input type="email" name="email" required placeholder="Email address" class="newsletter-input">
+
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
 
       </div>
 
     </div>
-  </footer>
+
+    <div class="footer-bottom">
+
+      <a href="#" class="logo">Visit Philippines</a>
+
+      
+
+      <ul class="social-list"> -->
+<!-- 
+        <li>
+          <a href="https://www.facebook.com/" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://twitter.com/?lang=en" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/login" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.google.com/" class="social-link">
+            <ion-icon name="logo-google"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+</footer> -->
 
 
-  <a href="#top" class="go-top" data-go-top aria-label="Go To Top">
-    <ion-icon name="chevron-up-outline"></ion-icon>
-  </a>
+<a href="#top" class="go-top" data-go-top aria-label="Go To Top">
+  <ion-icon name="chevron-up-outline"></ion-icon>
+</a>
 
 
-  <script src="./assets/js/script.js"></script>
+<script src="./assets/js/script.js"></script>
 
-  
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  <script src="./slideshow.js"></script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="./slideshow.js"></script>
 
 </body>
 

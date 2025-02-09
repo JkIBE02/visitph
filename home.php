@@ -677,7 +677,7 @@ session_start();
                   <h3 class="h3 about-item-title">Tour guide</h3>
 
                   <p class="about-item-text">
-                    We ensure that every traveler has an immersive and memorable experience.
+                    We ensure that every traveler has an memorable experience.
                   </p>
                 </div>
 
@@ -779,7 +779,7 @@ session_start();
                       </div>
                     </div>
 
-                    <time class="publish-time" datetime="5:43">5:43 PM</time>
+                    <time class="publish-time" datetime="5:43"></time>
 
                   </div>
 
@@ -834,7 +834,7 @@ session_start();
                       </div>
                     </div>
 
-                    <time class="publish-time" datetime="9:54">9:54 AM</time>
+                    <time class="publish-time" datetime="9:54"></time>
 
                   </div>
 
@@ -889,7 +889,7 @@ session_start();
                       </div>
                     </div>
 
-                    <time class="publish-time" datetime="11:12">11:12 AM</time>
+                    <time class="publish-time" datetime="11:12"></time>
 
                   </div>
 
@@ -938,27 +938,27 @@ session_start();
           </li>
 
           <li>
-            <a href="destinations.php" class="footer-link">Palawan</a>
+            <a href="palawan.php" class="footer-link">Palawan</a>
           </li>
 
           <li>
-            <a href="destinations.php" class="footer-link">Aklan</a>
+            <a href="boracay.php" class="footer-link">Aklan</a>
           </li>
 
           <li>
-            <a href="destinations.php" class="footer-link">Siargao</a>
+            <a href="siargao.php" class="footer-link">Siargao</a>
           </li>
 
           <li>
-            <a href="destinations.php" class="footer-link">Ilocos</a>
+            <a href="ilocos.php" class="footer-link">Ilocos</a>
           </li>
 
           <li>
-            <a href="destinations.php" class="footer-link">Ifugao</a>
+            <a href="ifugao.php" class="footer-link">Ifugao</a>
           </li>
 
           <li>
-            <a href="destinations.php" class="footer-link">Manila</a>
+            <a href="manila.php" class="footer-link">Manila</a>
           </li>
 
         </ul>
@@ -972,16 +972,12 @@ session_start();
           
 
           <li>
-            <a href="explore.php" class="footer-link">Activities</a>
+            <a href="featured.php" class="footer-link">Activities</a>
           </li>
 
-          
-          <li>
-            <a href="explore.php" class="footer-link">Culture</a>
-          </li>
 
           <li>
-            <a href="explore.php" class="footer-link">Foods</a>
+            <a href="featured.php" class="footer-link">Foods</a>
           </li>
 
         </ul>
@@ -997,16 +993,16 @@ session_start();
           </li>
 
           <li>
-            <a href="contact_us.php" class="footer-link">Contact</a>
+            <a href="contact_us.php" class="footer-link"></a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Tours</a>
+            <a href="#" class="footer-link"></a>
           </li>
 
           
           <li>
-            <a href="#" class="footer-link">Terms & Conditions</a>
+            <a href="#" class="footer-link"></a>
           </li>
 
         </ul>
@@ -1017,11 +1013,11 @@ session_start();
 
           
 
-          <form action="" class="newsletter-form">
+          <!-- <form action="" class="newsletter-form">
             <input type="email" name="email" required placeholder="Email address" class="newsletter-input">
 
             <button type="submit" class="btn btn-primary">Subscribe</button>
-          </form>
+          </form> -->
 
         </div>
 
