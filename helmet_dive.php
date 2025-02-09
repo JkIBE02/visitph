@@ -343,7 +343,7 @@ session_start();
       
 
       <ul class="social-list"> -->
-
+<!-- 
         <li>
           <a href="https://www.facebook.com/" class="social-link">
             <ion-icon name="logo-facebook"></ion-icon>
@@ -379,7 +379,7 @@ session_start();
     </div>
 
   </div>
-</footer>
+</footer> -->
 
 
 <a href="#top" class="go-top" data-go-top aria-label="Go To Top">
