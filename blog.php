@@ -1,4 +1,7 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 session_start(); // Start the session to access session variables
 
 // Check if the user is logged in
@@ -286,7 +289,9 @@ $(document).ready(function() {
 });
 </script>
 
-<footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
+<?php include('footer.php')?>
+
+<!-- <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
     <div class="container">
 
       <div class="footer-top">
@@ -383,9 +388,9 @@ $(document).ready(function() {
 
       </div>
 
-      <div class="footer-bottom">
+      <div class="footer-bottom"> -->
 
-        <a href="#" class="logo">Visit Philippines</a>
+        <!-- <a href="#" class="logo">Visit Philippines</a>
 
         
 
@@ -426,7 +431,30 @@ $(document).ready(function() {
       </div>
 
     </div>
-  </footer>
+  </footer> -->
+
+   <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top aria-label="Go To Top">
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 </html>

@@ -53,19 +53,19 @@ $conn->close();
               <div class="small-box bg-info">
                 <div class="inner">
                   <h3><?php echo $total_users; ?></h3> <!-- Dynamic value here -->
-                  <p>User Registrations</p>
+                  <p>Manage Users</p>
                 </div>
                 <div class="icon">
                   <i class="ion ion-bag"></i>
                 </div>
-                <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                 <a href="user_management.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
               </div>
             </div>
 
-            <div class="col-lg-3 col-6">
+            <!-- <div class="col-lg-3 col-6">
               <div class="small-box bg-warning">
                 <div class="inner">
-                  <!-- <h3><?php echo $most_visited; ?></h3> You can modify this to show the name of the destination -->
+                   <h3><?php echo $total_users; ?></h3> 
                   <p>Manage Users</p>
                 </div>
                 <div class="icon">
@@ -73,12 +73,12 @@ $conn->close();
                 </div>
                 <a href="user_management.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
               </div>
-            </div>
+            </div> -->
 
-            <div class="col-lg-3 col-6">
+            <!-- <div class="col-lg-3 col-6">
             <div class="small-box bg-danger">
                 <div class="inner">
-                  <!-- <h3><?php echo $active_users; ?></h3> -->
+                  <?php echo $active_users; ?></h3>
                   <p>Active Users</p>
                 </div>
                 <div class="icon">
@@ -87,7 +87,7 @@ $conn->close();
                 <a href="user_management.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
               </div>
 
-            </div>
+            </div> -->
           </div>
 
         </div>

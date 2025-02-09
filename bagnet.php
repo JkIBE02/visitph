@@ -235,9 +235,9 @@ session_start();
 
 
 
-  
+  <?php include('footer.php')?>
 
-  <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
+  <!-- <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
     <div class="container">
 
       <div class="footer-top">
@@ -340,7 +340,7 @@ session_start();
 
         
 
-        <ul class="social-list">
+        <ul class="social-list"> -->
 
           <li>
             <a href="https://www.facebook.com/" class="social-link">

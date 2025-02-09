@@ -6,27 +6,31 @@
         <ul class="footer-list">
 
           <li>
-            <p class="footer-list-title">Top destination</p>
+            <p class="footer-list-title">Destinations</p>
           </li>
 
           <li>
-            <a href="destinations.php" class="footer-link">Aklan, Boracay</a>
+            <a href="palawan.php" class="footer-link">Palawan</a>
           </li>
 
           <li>
-            <a href="destinations.php" class="footer-link">Palawan, Coron Island</a>
+            <a href="boracay.php" class="footer-link">Aklan</a>
           </li>
 
           <li>
-            <a href="destinations.php" class="footer-link">Palawan, Puerto Princesa</a>
+            <a href="siargao.php" class="footer-link">Siargao</a>
           </li>
 
           <li>
-            <a href="destinations.php" class="footer-link">Batangas, Verde Island</a>
+            <a href="ilocos.php" class="footer-link">Ilocos</a>
           </li>
 
           <li>
-            <a href="destinations.php" class="footer-link">Bohol, Virgin Island</a>
+            <a href="ifugao.php" class="footer-link">Ifugao</a>
+          </li>
+
+          <li>
+            <a href="manila.php" class="footer-link">Manila</a>
           </li>
 
         </ul>
@@ -40,16 +44,12 @@
           
 
           <li>
-            <a href="explore.php" class="footer-link">Activities</a>
+            <a href="featured.php" class="footer-link">Activities</a>
           </li>
 
-          
-          <li>
-            <a href="explore.php" class="footer-link">Culture</a>
-          </li>
 
           <li>
-            <a href="explore.php" class="footer-link">Foods</a>
+            <a href="featured.php" class="footer-link">Foods</a>
           </li>
 
         </ul>
@@ -65,16 +65,16 @@
           </li>
 
           <li>
-            <a href="contact_us.php" class="footer-link">Contact</a>
+            <a href="contact_us.php" class="footer-link"></a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Tours</a>
+            <a href="#" class="footer-link"></a>
           </li>
 
           
           <li>
-            <a href="#" class="footer-link">Terms & Conditions</a>
+            <a href="#" class="footer-link"></a>
           </li>
 
         </ul>
@@ -85,11 +85,11 @@
 
           
 
-          <form action="" class="newsletter-form">
+          <!-- <form action="" class="newsletter-form">
             <input type="email" name="email" required placeholder="Email address" class="newsletter-input">
 
             <button type="submit" class="btn btn-primary">Subscribe</button>
-          </form>
+          </form> -->
 
         </div>
 

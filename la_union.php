@@ -237,7 +237,9 @@ session_start();
     - #FOOTER
   -->
 
-  <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
+  <?php include('footer.php')?>
+
+  <!-- <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
     <div class="container">
 
       <div class="footer-top">
@@ -340,7 +342,7 @@ session_start();
 
         
 
-        <ul class="social-list">
+        <ul class="social-list"> -->
 
           <li>
             <a href="https://www.facebook.com/" class="social-link">
@@ -380,29 +382,14 @@ session_start();
   </footer>
 
 
-
-
-
-  <!-- 
-    - #GO TO TOP
-  -->
-
   <a href="#top" class="go-top" data-go-top aria-label="Go To Top">
     <ion-icon name="chevron-up-outline"></ion-icon>
   </a>
 
 
-
-
-
-  <!-- 
-    - custom js link
-  -->
   <script src="./assets/js/script.js"></script>
 
-  <!-- 
-    - ionicon link
-  -->
+  
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <script src="./slideshow.js"></script>
