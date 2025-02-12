@@ -91,13 +91,14 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : "Guest";
 
         .delete-btn {
             background-color: hsla(0, 100%, 42%, 1);
-            font-size: 15px;
+            font-size: 17px;
+            width: 70px;
             color: white;
             border: none;
             margin-top: 10px;
             padding: 5px 10px;
             cursor: pointer;
-            border-radius: 5px;
+            border-radius: 10px;
             transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
         }
 
@@ -129,8 +130,8 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : "Guest";
         .post-comment {
             color: white;
             background-color: hsla(173, 100%, 38%, 0.8);
-            font-weight: bold;
-            font-size: 15px;
+            width: 70px;
+            font-size: 17px;
             border: none;
             margin-bottom: 8px;
             padding: 5px 10px;
@@ -191,15 +192,15 @@ $posts = $conn->query("SELECT * FROM blog_posts ORDER BY date_posted DESC");
           </li> -->
 
           <li>
-            <a href="featured.php" class="navbar-link">Featured</a>
+            <a href="1_FeaturedIndex.php" class="navbar-link">Featured</a>
           </li>
 
           <li>
-            <a href="destinations.php" class="navbar-link">Destinations</a>
+            <a href="1_DestinationIndex.php" class="navbar-link">Destinations</a>
           </li>
 
           <li>
-            <a href="blog.php" class="navbar-link">Blog</a>
+            <a href="1_blog.php" class="navbar-link">Blog</a>
           </li>
 
           <?php if (isset($_SESSION['username'])): ?>
@@ -291,151 +292,7 @@ $(document).ready(function() {
 
 <?php include('footer.php')?>
 
-<!-- <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
-    <div class="container">
 
-      <div class="footer-top">
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Top destination</p>
-          </li>
-
-          <li>
-            <a href="destinations.php" class="footer-link">Aklan, Boracay</a>
-          </li>
-
-          <li>
-            <a href="destinations.php" class="footer-link">Palawan, Coron Island</a>
-          </li>
-
-          <li>
-            <a href="destinations.php" class="footer-link">Palawan, Puerto Princesa</a>
-          </li>
-
-          <li>
-            <a href="destinations.php" class="footer-link">Batangas, Verde Island</a>
-          </li>
-
-          <li>
-            <a href="destinations.php" class="footer-link">Bohol, Virgin Island</a>
-          </li>
-
-        </ul>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Categories</p>
-          </li>
-
-          
-
-          <li>
-            <a href="explore.php" class="footer-link">Activities</a>
-          </li>
-
-          
-          <li>
-            <a href="explore.php" class="footer-link">Culture</a>
-          </li>
-
-          <li>
-            <a href="explore.php" class="footer-link">Foods</a>
-          </li>
-
-        </ul>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Quick links</p>
-          </li>
-
-          <li>
-            <a href="about_us.php" class="footer-link">About</a>
-          </li>
-
-          <li>
-            <a href="contact_us.php" class="footer-link">Contact</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Tours</a>
-          </li>
-
-          
-          <li>
-            <a href="#" class="footer-link">Terms & Conditions</a>
-          </li>
-
-        </ul>
-
-        <div class="footer-list">
-
-          
-
-          
-
-          <form action="" class="newsletter-form">
-            <input type="email" name="email" required placeholder="Email address" class="newsletter-input">
-
-            <button type="submit" class="btn btn-primary">Subscribe</button>
-          </form>
-
-        </div>
-
-      </div>
-
-      <div class="footer-bottom"> -->
-
-        <!-- <a href="#" class="logo">Visit Philippines</a>
-
-        
-
-        <ul class="social-list">
-
-          <li>
-            <a href="https://www.facebook.com/" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="https://twitter.com/?lang=en" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="https://www.instagram.com/" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="https://www.linkedin.com/login" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="https://www.google.com/" class="social-link">
-              <ion-icon name="logo-google"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </div>
-  </footer> -->
-
-   <!-- 
-    - #GO TO TOP
-  -->
 
   <a href="#top" class="go-top" data-go-top aria-label="Go To Top">
     <ion-icon name="chevron-up-outline"></ion-icon>

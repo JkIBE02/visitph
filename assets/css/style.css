@@ -126,7 +126,10 @@ html {
 body {
   background: var(--white-1);
   font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+
 
 ::-webkit-scrollbar { width: 10px; }
 
@@ -250,10 +253,18 @@ body {
 .section-title { font-family: var(--ff-abril-fatface); }
 
 .img-cover {
-  width: 100%;
+  width: 200px;
   height: 100%;
   object-fit: cover;
 }
+
+.w-50 .card-banner img {
+  width: 200px;
+  height: 200px;
+}
+
+
+
 
 .card-banner { background: var(--silver-chalice);  }
 
@@ -452,12 +463,19 @@ body {
   margin-bottom: 15px;
 }
 
-.hero-text {
+/* .hero-text {
   color: var(--black-coral);
   font-size: var(--fs-4);
   line-height: 1.7;
   margin-bottom: 15px;
+} */
+
+.hero-text {
+  max-width: 800px; /* Adjust to preferred width */
+  margin: 0 auto; /* Centers text */
+  font-size: 1.2rem; /* Adjust size */
 }
+
 
 .important {
   color: var(--white-1);
@@ -490,7 +508,7 @@ body {
 
 .destination-list {
   display: flex;
-  flex: wrap; 
+  
   gap : 30px;
   height: 100%;
   overflow-x: auto;
@@ -1339,6 +1357,27 @@ body {
 
 .heart-btn.clicked {
   color: red; /* Stays red after clicking */
+}
+
+
+.modal {
+  display: none;  /* Hide the modal initially */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
 }
 
 

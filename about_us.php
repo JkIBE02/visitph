@@ -73,7 +73,7 @@
           </li>
 
           <li>
-            <a href="destinations.php" class="navbar-link">Destinations</a>
+            <a href="1_DestinationIndex.php" class="navbar-link">Destinations</a>
           </li>
 
           <li>
@@ -348,3 +348,37 @@
 </body>
 
 </html>
+
+<!-- <?php while ($post = $posts->fetch_assoc()): ?>
+    
+        <section class="section destination">
+          <div class="container">
+
+          <p class="section-subtitle">Destinations</p>
+
+            <h2 class="h2 section-title"></h2>
+
+            <ul class="destination-list">
+
+              <li class="w-50">
+                <a href="palawan.php" class="destination-card">
+                
+                <figure class="card-banner">
+                  <img src="./assets/images/puerto princesa.jpg" loading="lazy"
+                    alt="Aklan, Boracay" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">Palawan</p>
+
+                  <h3 class="h3 card-title">Puerto Princesa</h3>
+                </div>
+
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+    
+        <?php endwhile; ?> -->

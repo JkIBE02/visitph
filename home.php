@@ -74,15 +74,15 @@ session_start();
           </li> -->
 
           <li>
-            <a href="featured.php" class="navbar-link">Featured</a>
+            <a href="1_FeaturedIndex.php" class="navbar-link">Featured</a>
           </li>
 
           <li>
-            <a href="destinations.php" class="navbar-link">Destinations</a>
+            <a href="1_DestinationIndex.php" class="navbar-link">Destinations</a>
           </li>
 
           <li>
-            <a href="blog.php" class="navbar-link">Blog</a>
+            <a href="1_blog.php" class="navbar-link">Blog</a>
           </li>
 
           <!-- <li>
@@ -124,51 +124,7 @@ session_start();
   </header>
 
 
-<!-- Slideshow container -->
-<!-- <div class="slideshow-container">
 
-
-
-
-<div class="mySlides fade">
-  <div class="numbertext">1 / 4</div>
-  <img src="./assets/images/slide1.jpg" style="width:100%">
-  <div class="text"></div>
-</div>
-
-
-  
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 4</div>
-    <img src="./assets/images/surfing.png" style="width:100%">
-    <div class="text"></div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 4</div>
-    <img src="./assets/images/slide3.jpg" style="width:100%">
-    <div class="text"></div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">4 / 4</div>
-    <img src="./assets/images/slides3.jpg" style="width:100%">
-    <div class="text"></div>
-  </div>
-
-   Next and previous buttons
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-  <span class="dot" onclick="currentSlide(4)"></span>
-</div> -->
 
 
   <main>
@@ -183,11 +139,7 @@ session_start();
         <br><img src="./assets/images/banner.jpg" alt="" class="banner">
         <div class="container">
 
-          <!--<img src="./assets/images/shape-1.png" width="61" height="61" alt="Vector Shape" class="shape shape-1">
-
-          <img src="./assets/images/shape-2.png" width="56" height="74" alt="Vector Shape" class="shape shape-2">
-
-          <img src="./assets/images/shape-3.png" width="57" height="72" alt="Vector Shape" class="shape shape-3">-->
+          
 
           <div class="hero-content-important">
 
@@ -225,270 +177,165 @@ session_start();
      
       
 
-      <section class="section destination">
-        
+      <section class="section popular">
         <div class="container">
-
-          
 
           <p class="section-subtitle">Destinations</p>
 
           <h2 class="h2 section-title"></h2>
-          <div class="next-prev btn">
-          <!-- <i class="previous-round">&#8249;</i>
-          <i class="next-round">&#8250;</i> -->
-          </div>
-          
-          
-          <ul class="destination-list">
 
-            <li class="w-50">
-              <a href="palawan.php" class="destination-card">
+          <ul class="popular-list">
+
+            <li>
+              <div class="popular-card">
+
                 <figure class="card-banner">
-                  <img src="./assets/images/puerto princesa.jpg" loading="lazy"
-                    alt="Aklan, Boracay" class="img-cover">
+                  <a href="1_DestinationIndex.php">
+                    <img src="./assets/images/puerto_princesa.jpg" width="740" height="518" loading="lazy"
+                      alt="Pinto Museum" class="img-cover">
+                  </a>
+
+                  <span class="#"> <!--class = card-badge -->
+                    <a href="explore.php">
+                    <!--<ion-icon name="time-outline"></ion-icon>-->
+                    </a>
+                  </span>
+                  
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-price"><h2>Palawan</h2></div>
+
+                    <!-- <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+
+                      <data value="2">(4)</data>
+                    </div> -->
+                  </div>
+
+                  <h3 class="card-title">
+                    <p href="1_DestinationIndex.php">
+                    Officially the Province of Palawan is an archipelagic province of the Philippines that is located in the region of Mimaropa.
+                    </p>
+                  </h3>
+                  
+
+                  <address class="card-location"></address>
+
+                </div>
+                <a href="1_DestinationIndex.php" class="btn-link">
+                    <span>View More</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-banner">
+                  <a href="1_DestinationIndex.php">
+                    <img src="./assets/images/boracay.png" width="740" height="600" loading="lazy"
+                      alt="Boracay" class="img-cover">
+                  </a>
+
+                  <span class="#"> <!--class="card-badge"-->
+                    <!--<ion-icon name="time-outline"></ion-icon>-->
+
+                   
+                  </span>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-price"><h2>Boracay</h2></div>
+
+                    <!-- <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+
+                      <data value="2">(4)</data>
+                    </div> -->
+                  </div>
+
+                  <h3 class="card-title">
+                    <p href="1_DestinationIndex.php">
+                    The island is known for its powdery white sand and gorgeous, pristine beaches.
+                    </p>
+                  </h3>
+
+                  <address class="card-location"></address>
+                 
+                </div>
+                <a href="1_DestinationIndex.php" class="btn-link">
+                    <span>View More</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-banner">
+                  <a href="1_DestinationIndex.php">
+                    <img src="./assets/images/siargao.jpg" width="200" height="200" loading="lazy"
+                      alt="La Cathedral" class="img-cover">
+                  </a>
+
+                  <span class="#"> <!--card-badge CLASS -->
+                    <!--<ion-icon name="time-outline"></ion-icon>-->
 
                     
-                </figure>
-            
-                <div class="card-content">
-                  <p class="card-subtitle">Palawan</p>
-                
-                  <h3 class="h3 card-title">Puerto Princesa</h3>
-                  
-                </div>
-              </a>
-            
-             
-        
-            </li>
-            
-
-            <li class="w-50">
-              <a href="boracay.php" class="destination-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/Boracay_White_Beach.png" loading="lazy"
-                    alt="Aklan, Boracay" class="img-cover">
+                  </span>
                 </figure>
 
                 <div class="card-content">
-                  <p class="card-subtitle">Aklan</p>
 
-                  <h3 class="h3 card-title">Boracay</h3>
+                  <div class="card-wrapper">
+                    <div class="card-price"><h2>Siargao</h2></div>
+
+                    <!-- <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+
+                      <data value="2">(4)</data>
+                    </div> -->
+                  </div>
+
+                  <h3 class="card-title">
+                    <p href="1_DestinationIndex.php">
+                    An island of nine municipalities in the province of Surigao del Norte.
+                    </p>
+                  </h3>
+
+                  <address class="card-location"></address>
+
                 </div>
+                <a href="1_DestinationIndex.php" class="btn-link">
+                    <span>View More</span>
 
-              </a>
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+              </div>
             </li>
 
-            <li class="w-50">
-              <a href="siargao.php" class="destination-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/Siargao.png" loading="lazy"
-                    alt="Aklan, Boracay" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-subtitle">Surigao Del Norte</p>
-
-                  <h3 class="h3 card-title">Siargao</h3>
-                </div>
-
-              </a>
-            </li>
-
-            <li class="w-50">
-              <a href="la_union.php" class="destination-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/La Union.jpg" loading="lazy"
-                    alt="Aklan, Boracay" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-subtitle">Ilocos</p>
-
-                  <h3 class="h3 card-title">La Union</h3>
-                </div>
-
-              </a>
-            </li>
-
-            <li class="w-50">
-              <a href="ifugao.php" class="destination-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/banaue_top10" loading="lazy"
-                    alt="Aklan, Boracay" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-subtitle">Ifugao</p>
-
-                  <h3 class="h3 card-title">Banaue Rice Terrace</h3>
-                </div>
-
-              </a>
-            </li>
-
-            <li class="w-50">
-              <a href="manila.php" class="destination-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/intramuros.jpg" loading="lazy"
-                    alt="Aklan, Boracay" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-subtitle">Manila</p>
-
-                  <h3 class="h3 card-title">Intramuros</h3>
-                </div>
-
-              </a>
-            </li>
-
-            <li class="w-50">
-              <a href="kayangan.php" class="destination-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/Kayangan Lake.jpg" loading="lazy"
-                    alt="Aklan, Boracay" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-subtitle">Northern Palawan</p>
-
-                  <h3 class="h3 card-title">Kayangan Lake</h3>
-                </div>
-
-              </a>
-            </li>
-
-            <li class="w-50">
-              <a href="sulu.php" class="destination-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/Tubbataha.jpg" loading="lazy"
-                    alt="Aklan, Boracay" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-subtitle">Sulu Sea</p>
-
-                  <h3 class="h3 card-title">Tubbataha Reef</h3>
-                </div>
-
-              </a>
-            </li>
-
-            <li class="w-50">
-              <a href="ilocos.php" class="destination-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/Vigan City.jpg" loading="lazy"
-                    alt="Aklan, Boracay" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-subtitle">Ilocos Sur</p>
-
-                  <h3 class="h3 card-title">Vigan City</h3>
-                </div>
-
-              </a>
-            </li>
-
-            <li class="w-50">
-              <a href="batanes.php" class="destination-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/Batanes.jpg" loading="lazy"
-                    alt="Aklan, Boracay" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-subtitle">Batanes</p>
-
-                  <h3 class="h3 card-title">Batanes</h3>
-                </div>
-
-              </a>
-            </li>
-
-
-            
-
-            <!-- <li class="w-50">
-              <a href="destinations.php" class="destination-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/coron.jpg"loading="lazy"
-                    alt="Coron Island, Palawan" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-subtitle">Palawan</p>
-
-                  <h3 class="h3 card-title">Coron Island</h3>
-                </div>
-
-              </a>
-            </li>
-
-            <li class="w-50">
-              <a href="destinations.php" class="destination-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/puerto.jpg" loading="lazy"
-                    alt="Puerto Princesa, Palawan" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-subtitle">Palawan</p>
-
-                  <h3 class="h3 card-title">Puerto Princesa</h3>
-                </div>
-
-              </a>
-            </li>
-
-            <li class="w-50">
-              <a href="destinations.php" class="destination-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/verde_island.jpg" loading="lazy"
-                    alt="Verde Island, Batangas" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-subtitle">Batangas</p>
-
-                  <h3 class="h3 card-title">Verde Island</h3>
-                </div>
-
-              </a>
-            </li>
-
-            <li class="w-50">
-              <a href="destinations.php" class="destination-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/Hinatuan_enchanted_river.jpg"loading="lazy"
-                    alt="Enchanted River, Hinatuan" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-subtitle">Hinatuan</p>
-
-                  <h3 class="h3 card-title">Enchanted River</h3>
-                </div>
-
-              </a>
-            </li>
-
-          </ul> -->
+          </ul>
 
         </div>
       </section>
@@ -514,7 +361,7 @@ session_start();
               <div class="popular-card">
 
                 <figure class="card-banner">
-                  <a href="featured.php">
+                  <a href="1_FeaturedIndex.php">
                     <img src="./assets/images/bicol_express.jpg" width="740" height="518" loading="lazy"
                       alt="Pinto Museum" class="img-cover">
                   </a>
@@ -544,13 +391,20 @@ session_start();
                   </div>
 
                   <h3 class="card-title">
-                    <a href="featured.php">When nature meets food.</a>
+                    <p href="1_FeaturedIndex.php">
+                      When nature meets food.
+                    </p>
                   </h3>
+                  
 
                   <address class="card-location"></address>
 
                 </div>
+                <a href="1_FeaturedIndex.php" class="btn-link">
+                    <span>View More</span>
 
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
               </div>
             </li>
 
@@ -558,7 +412,7 @@ session_start();
               <div class="popular-card">
 
                 <figure class="card-banner">
-                  <a href="featured.php">
+                  <a href="1_FeaturedIndex.php">
                     <img src="./assets/images/canyoneering.jpg" width="740" height="600" loading="lazy"
                       alt="The Peak" class="img-cover">
                   </a>
@@ -587,13 +441,20 @@ session_start();
                   </div>
 
                   <h3 class="card-title">
-                    <a href="featured.php"> requiring rappels (abseils) and ropework, technical climbing or down-climbing, technical jumps, and/or technical swims.</a>
+                    <p href="1_FeaturedIndex.php">
+                    Requiring rappels and ropework, technical climbing or down-climbing, technical jumps, and/or technical swims.
+                  </p>
+
                   </h3>
 
                   <address class="card-location"></address>
-
+                 
                 </div>
+                <a href="1_FeaturedIndex.php" class="btn-link">
+                    <span>View More</span>
 
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
               </div>
             </li>
 
@@ -601,7 +462,7 @@ session_start();
               <div class="popular-card">
 
                 <figure class="card-banner">
-                  <a href="featured.php">
+                  <a href="1_FeaturedIndex.php">
                     <img src="./assets/images/helmet_dive.jpg" width="200" height="200" loading="lazy"
                       alt="La Cathedral" class="img-cover">
                   </a>
@@ -630,13 +491,19 @@ session_start();
                   </div>
 
                   <h3 class="card-title">
-                    <a href="featured.php">Gives you the chance to walk underwater without getting your hair wet.</a>
+                    <p href="1_FeaturedIndex.php">
+                      Gives you the chance to walk underwater without getting your hair wet.
+                    </p>
                   </h3>
 
                   <address class="card-location"></address>
 
                 </div>
+                <a href="1_FeaturedIndex.php" class="btn-link">
+                    <span>View More</span>
 
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
               </div>
             </li>
 
@@ -750,7 +617,7 @@ session_start();
 
                 <figure class="card-banner">
 
-                  <a href="blog.php">
+                  <a href="1_blog.php">
                     <img src="./assets/images/boracay_blog.jpg" width="700" height="700" loading="lazy"
                       alt="A good traveler has no fixed plans and is not intent on arriving." class="img-cover">
                   </a>
@@ -773,7 +640,7 @@ session_start();
                       </figure>
 
                       <div>
-                        <a href="blog.php" class="author-name">Alex Bogue</a>
+                        <a href="1_blog.php" class="author-name">Alex Bogue</a>
 
                         <p class="author-title">Researcher</p>
                       </div>
@@ -784,12 +651,12 @@ session_start();
                   </div>
 
                   <h3 class="card-title">
-                    <a href="blog.php">
+                    <p href="1_blog.php">
                      Had a lot of fun, here Boracay, hope you guys doing great there!
-                    </a>
+                    </p>
                   </h3>
 
-                  <a href="blog.php" class="btn-link">
+                  <a href="1_blog.php" class="btn-link">
                     <span>Read More</span>
 
                     <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
@@ -805,7 +672,7 @@ session_start();
 
                 <figure class="card-banner">
 
-                  <a href="blog.php">
+                  <a href="1_blog.php">
                     <img src="./assets/images/blog-2.jpg" width="740" height="518" loading="lazy"
                       alt="A good traveler has no fixed plans and is not intent on arriving." class="img-cover">
                   </a>
@@ -828,7 +695,7 @@ session_start();
                       </figure>
 
                       <div>
-                        <a href="blog.php" class="author-name">Jony bristow</a>
+                        <a href="1_blog.php" class="author-name">Jony bristow</a>
 
                         <p class="author-title">Vlogger</p>
                       </div>
@@ -839,12 +706,12 @@ session_start();
                   </div>
 
                   <h3 class="card-title">
-                    <a href="blog.php">
+                    <p href="1_blog.php">
                       A good traveler has no fixed plans and is not intent on arriving.
-                    </a>
+                    </p>
                   </h3>
 
-                  <a href="blog.php" class="btn-link">
+                  <a href="1_blog.php" class="btn-link">
                     <span>Read More</span>
 
                     <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
@@ -860,7 +727,7 @@ session_start();
 
                 <figure class="card-banner">
 
-                  <a href="blog.php">
+                  <a href="1_blog.php">
                     <img src="./assets/images/blog-3.jpg" width="740" height="518" loading="lazy"
                       alt="A good traveler has no fixed plans and is not intent on arriving." class="img-cover">
                   </a>
@@ -883,7 +750,7 @@ session_start();
                       </figure>
 
                       <div>
-                        <a href="blog.php" class="author-name">Gabriel Alexander</a>
+                        <a href="1_blog.php" class="author-name">Gabriel Alexander</a>
 
                         <p class="author-title">Entrepreneur</p>
                       </div>
@@ -894,12 +761,12 @@ session_start();
                   </div>
 
                   <h3 class="card-title">
-                    <a href="blog.php">
+                    <p href="1_blog.php">
                       What a great day to stay here in Philippines
-                    </a>
+                    </p>
                   </h3>
 
-                  <a href="blog.php" class="btn-link">
+                  <a href="1_blog.php" class="btn-link">
                     <span>Read More</span>
 
                     <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
@@ -934,63 +801,41 @@ session_start();
         <ul class="footer-list">
 
           <li>
-            <p class="footer-list-title">Destinations</p>
+            <a href="1_DestinationIndex.php" class="footer-list-title">Destinations</a>
           </li>
 
-          <li>
-            <a href="palawan.php" class="footer-link">Palawan</a>
-          </li>
-
-          <li>
-            <a href="boracay.php" class="footer-link">Aklan</a>
-          </li>
-
-          <li>
-            <a href="siargao.php" class="footer-link">Siargao</a>
-          </li>
-
-          <li>
-            <a href="ilocos.php" class="footer-link">Ilocos</a>
-          </li>
-
-          <li>
-            <a href="ifugao.php" class="footer-link">Ifugao</a>
-          </li>
-
-          <li>
-            <a href="manila.php" class="footer-link">Manila</a>
-          </li>
+         
 
         </ul>
 
         <ul class="footer-list">
 
           <li>
-            <p class="footer-list-title">Categories</p>
+            <a href="1_FeaturedIndex.php" class="footer-list-title">Featured</a>
           </li>
 
           
 
-          <li>
+          <!-- <li>
             <a href="featured.php" class="footer-link">Activities</a>
           </li>
 
 
           <li>
             <a href="featured.php" class="footer-link">Foods</a>
-          </li>
+          </li> -->
 
         </ul>
 
         <ul class="footer-list">
 
           <li>
-            <p class="footer-list-title">Quick links</p>
+            <a href="about_us.php" class="footer-list-title">About Us</a>
           </li>
 
-          <li>
+          <!-- <li>
             <a href="about_us.php" class="footer-link">About</a>
-          </li>
+          </li> -->
 
           <li>
             <a href="contact_us.php" class="footer-link"></a>

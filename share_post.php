@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['share'])) {
     $stmt->bind_param("sss", $author, $description, $image);
 
     if ($stmt->execute()) {
-        header("Location: blog.php"); // Redirect to blog after sharing
+        header("Location: 1_blog.php"); // Redirect to blog after sharing
         exit();
     } else {
         echo "Error: " . $stmt->error;
