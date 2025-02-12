@@ -6,63 +6,41 @@
         <ul class="footer-list">
 
           <li>
-            <p class="footer-list-title">Destinations</p>
+            <a href="1_DestinationIndex.php" class="footer-list-title">Destinations</a>
           </li>
 
-          <li>
-            <a href="palawan.php" class="footer-link">Palawan</a>
-          </li>
-
-          <li>
-            <a href="boracay.php" class="footer-link">Aklan</a>
-          </li>
-
-          <li>
-            <a href="siargao.php" class="footer-link">Siargao</a>
-          </li>
-
-          <li>
-            <a href="ilocos.php" class="footer-link">Ilocos</a>
-          </li>
-
-          <li>
-            <a href="ifugao.php" class="footer-link">Ifugao</a>
-          </li>
-
-          <li>
-            <a href="manila.php" class="footer-link">Manila</a>
-          </li>
+         
 
         </ul>
 
         <ul class="footer-list">
 
           <li>
-            <p class="footer-list-title">Categories</p>
+            <a href="1_FeaturedIndex.php" class="footer-list-title">Featured</a>
           </li>
 
           
 
-          <li>
+          <!-- <li>
             <a href="featured.php" class="footer-link">Activities</a>
           </li>
 
 
           <li>
             <a href="featured.php" class="footer-link">Foods</a>
-          </li>
+          </li> -->
 
         </ul>
 
         <ul class="footer-list">
 
           <li>
-            <p class="footer-list-title">Quick links</p>
+            <a href="about_us.php" class="footer-list-title">About Us</a>
           </li>
 
-          <li>
+          <!-- <li>
             <a href="about_us.php" class="footer-link">About</a>
-          </li>
+          </li> -->
 
           <li>
             <a href="contact_us.php" class="footer-link"></a>

@@ -71,7 +71,7 @@
           </li>
 
           <li>
-            <a href="destinations.php" class="navbar-link">Destinations</a>
+            <a href="1_DestinationIndex.php" class="navbar-link">Destinations</a>
           </li>
 
           <li>
